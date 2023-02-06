@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 /* 
 
     You can write your own styles here...
@@ -10,3 +10,84 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+ul li {
+    border: 1px solid grey;
+    list-style: none;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: medium;
+    color: brown;
+}
+
+input {
+    border: none;
+    width: 100%;
+}
+
+.counter {
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.thetask {
+    width: 80% !important;
+}
+
+.thetrash {
+    width: 20%;
+    text-align: right;
+}
+
+.trashcant {
+    cursor: pointer;
+}
+
+.trashcant:hover {
+    color: red;
+}
+
+span {
+    display: inline-block;
+}
+
+.notasks {
+    font-weight: 800;
+    color: red;
+}
+
+.thebutton {
+    text-align: center;
+    background-color: white;    
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.thebutton:hover {
+    color: white;
+    background-color: black;
+}
